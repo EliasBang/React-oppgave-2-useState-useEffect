@@ -26,7 +26,7 @@ export default function Users() {
         </li>
         <li>
           <input
-            type="text"
+            type="email"
             placeholder="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
