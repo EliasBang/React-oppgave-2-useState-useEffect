@@ -11,7 +11,7 @@ export default function CookieClicker() {
           onClick={() => setCount(count + 1)}
         >
           <img
-            src="/cookie-1.png"
+            src="src/assets/cookie-1.png"
             className="base"
             width="170"
             height="179"
