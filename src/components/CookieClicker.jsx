@@ -1,4 +1,5 @@
 import { useState } from "react";
+import cookieImage from "/cookie-1.png";
 export default function CookieClicker() {
   const [count, setCount] = useState(0);
 
@@ -11,7 +12,7 @@ export default function CookieClicker() {
           onClick={() => setCount(count + 1)}
         >
           <img
-            src="src/assets/cookie-1.png"
+            src={cookieImage}
             className="base"
             width="170"
             height="179"
