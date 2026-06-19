@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const mockData = [
   { username: "Ola Normann", email: "ola.normann@norge.no" },
@@ -12,7 +12,6 @@ export default function Users() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
 
-  useEffect(() => {});
   return (
     <>
       <ul>
